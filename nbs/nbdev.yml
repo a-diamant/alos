@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "alos"
+  site-url: "https://a-diamant.github.io/alos"
+  description: "Storage and visualization of long read based single cell datasets"
+  repo-branch: main
+  repo-url: "https://github.com/a-diamant/alos"
