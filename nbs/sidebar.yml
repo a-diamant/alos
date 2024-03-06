@@ -1,0 +1,6 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_plot_transcripts.ipynb
+      - 01_gene_report.ipynb
