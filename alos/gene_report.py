@@ -4,9 +4,6 @@
 __all__ = ['adata_iso', 'mdata', 'filtered_m', 'mdata_test', 'create_iso_adata', 'plot_switch_gen_bar',
            'plot_isoforms_frequencies', 'plot_genes_cell_type', 'plot_isoforms_summary', 'filter_mdata', 'mdata_m']
 
-# %% ../nbs/01_gene_report.ipynb 2
-from nbdev.showdoc import *
-
 # %% ../nbs/01_gene_report.ipynb 7
 # creates isoform level anndata object from df produced by Sicelore:
 def create_iso_adata (path):
