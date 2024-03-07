@@ -9,22 +9,27 @@
 pip install alos
 ```
 
-## How to use
+## Basic workflow
 
 ### Plot transcript module
+
+``` python
+import alos.plot_transcripts as ptr
+```
 
 Transcript’s structure can be visualized with draw_transcript function
 from your own list of exons or directly by indicating a valid Ensemble
 id. get_coord_from_tscrpt_id function takes a transcript’s Ensemble id
 as an input and returns coordinates of exons and strand.
 
-![transcript_schema](../pngs/transcpipt_expl.png)
+Multiple transcripts can be vizualized on one panel with the function
+draw_transcripts_list
 
 ``` python
+ptr.draw_transcripts_list(["ENSMUST00000030636", "ENSMUST00000105867", "ENSMUST00000105868", "ENSMUST00000130253", "ENSMUST00000127279"])
 ```
 
-Multiple transcripts can be vizualized on one panel with the function
-draw_transcripts_list ![transcripts_panel](../pngs/transcript_panel.png)
+![](index_files/figure-commonmark/cell-3-output-1.png)
 
 ### Gene report module
 

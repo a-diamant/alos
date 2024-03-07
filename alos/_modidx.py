@@ -66,6 +66,5 @@ d = { 'settings': { 'branch': 'main',
                                                                                   'alos/plot_transcripts.py'),
                                        'alos.plot_transcripts.draw_transcripts_list': ( 'plot_transcripts.html#draw_transcripts_list',
                                                                                         'alos/plot_transcripts.py'),
-                                       'alos.plot_transcripts.foo': ('plot_transcripts.html#foo', 'alos/plot_transcripts.py'),
                                        'alos.plot_transcripts.get_coord_from_tscrpt_id': ( 'plot_transcripts.html#get_coord_from_tscrpt_id',
                                                                                            'alos/plot_transcripts.py')}}}
