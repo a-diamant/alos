@@ -3,6 +3,13 @@
 # %% auto 0
 __all__ = ['exons_list', 'get_coord_from_tscrpt_id', 'draw_transcript', 'draw_exons', 'draw_transcripts_list', 'foo']
 
+# %% ../nbs/00_plot_transcripts.ipynb 3
+import matplotlib.pyplot as plt
+import matplotlib.lines as lines
+import numpy as np
+import requests, sys
+
+
 # %% ../nbs/00_plot_transcripts.ipynb 5
 def get_coord_from_tscrpt_id(transcipt_id):
 # get exon coordinates from ensemble API by transcript id:
